@@ -9,8 +9,8 @@ import hello.core.member.MemberService;
 import hello.core.member.MemberServiceImpl;
 
 public class OrderServiceTest {
-	MemberService memberService = new MemberServiceImpl();
-	OrderService orderService = new OrderServiceImpl();
+	MemberService memberService;
+	OrderService orderService;
 	
 	@Test
 	void  createOrder() {
